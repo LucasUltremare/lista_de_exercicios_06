@@ -1,6 +1,6 @@
 class Circulo{
 
-    // instancia uma variavel private
+    // Realizou a criação de uma variavel privada
     private double raio;
 
     // Construtor
@@ -8,11 +8,12 @@ class Circulo{
         this.raio = raio;
     }
 
-    // Cria getters e setters
+    // Criou getters 
     public double getRaio(){
         return raio;
     }
-
+    
+    // Criou setters
     public void setRaio(double raio){
         if (raio >= 0)
             this.raio = raio;
